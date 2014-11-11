@@ -15,4 +15,5 @@ Setelah sekitar 3 tahun bergelut dengan dunia desktop programming akhirnya memut
 Dan mulai tahun 2010 saya pindah ke mobile development company yaitu 4id sebagai lead programmer sampai saat ini.
 
 Regards,
+
 Cahyo Wicaksono
