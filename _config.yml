@@ -1,21 +1,21 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+name: Cahyo Wicaksono - Android Developer Expert Indonesia 
+description: Android Developer Expert Indonesia
+meta_description: "Cahyo Wicaksono - Android Developer Expert Indonesia"
 
 aboutPage: true
 
 markdown: redcarpet
 highlighter: pygments
 
-paginate: 20
+paginate: 10
 baseurl: /
-domain_name: 'http://yourblog-domain.com'
+domain_name: 'http://cwicaksono.github.io/'
 google_analytics: 'UA-XXXXXXXX-X'
 disqus: false
 disqus_shortname: 'your-disqus-shortname'
 
 # Details for the RSS feed generator
-url:            'http://your-blog-url.example.com'
+url:            'http://cwicaksono.github.io/'
 author:         'Cahyo Wicaksono'
 authorTwitter:  'cwicaksono'
 
@@ -42,5 +42,4 @@ defaults:
             layout: post
 
 gems: [jekyll-paginate]
-paginate: 5
 paginate_path: "page:num"
