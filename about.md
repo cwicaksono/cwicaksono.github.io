@@ -6,14 +6,17 @@ profile: true
 
 ##About##
 
-Hi, perkenalkan nama saya Cahyo Wicaksono seorang Android Developer Expert Indonesia, yang sudah terjun di dunia Android Mobile Development sejak tahun 2012, lokasi saya di Bekasi, Indonesia. Selain Android Development saya juga menguasai iOS Development dan Website Development.
+Hello, my name is Cahyo Wicaksono an **Android Developer from Indonesia**, who have experience on Mobile Application Development since 2012. I come from Bekasi, Indonesia.
 
-Beberapa tools yang saya gunakan pada Android Development yaitu Android Studio dan saya juga mengimplementasi automated test didalam pembuatan aplikasi Android. Selain Android Development saya juga membuat Backend System yang saya buat untuk mendukung Android Application yang saya buat. Untuk Web Development saya menggunakan CodeIgniter, Laravel, SlimFramework sebagai framework yang digunakan, sedangkan untuk database saya menggunakan MySQL dan untuk pengujuan dari website / web application / backend ini saya menggunakan Selenium dan Codeception sebagai Tester-nya.
+Beside Android Development, I also have another experience on **iOS Development and Website Development**.
 
-Jika anda memiliki ide yang ingin direalisasikan feel free to discuss ya, saya juga pernah membuat beberapa produk berbentuk Mobile Application untuk beberapa startup di Jakarta.
+On my daily activity I used some tools that support development proccess like Android Studio and I also implement automated test on Android Application Development proccess. For Website Development i used PHP Framework like CodeIgniter, Laravel, and SlimFramework (depends on needs), for database engine i use MySQSL and for testing website / web application / backend i using Selenium or Codeception.
 
-Untuk menghubungi saya bisa melalui email **cahyo.wicaksono[at]gmail.com**
+If you have an idea about create Mobile Application for your own product or create great website for your business feel free to contact me, i also have an experience help some startup company in Jakarta.
 
-Terima Kasih
+You can contact me using **cahyo.wicaksono[at]gmail.com**
+
+Regards,<br />
+Cahyo Wicaksono
 
 {% include footer.html %}
