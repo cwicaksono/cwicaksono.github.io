@@ -8,7 +8,7 @@ aboutPage: true
 # highlighter: pygments
 
 paginate: 10
-baseurl: ""
+baseurl: "/"
 domain_name: "http://cwicaksono.github.io/"
 google_analytics: "UA-75915557-1"
 disqus: false
