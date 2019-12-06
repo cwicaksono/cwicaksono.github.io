@@ -1,0 +1,41 @@
+name: Cahyo Wicaksono - Android Developer Expert Indonesia
+description: Android Developer Expert Indonesia
+meta_description: "Cahyo Wicaksono - Android Developer Expert Indonesia"
+
+aboutPage: true
+
+markdown: redcarpet
+highlighter: pygments
+
+paginate: 10
+baseurl: "http://cwicaksono.github.io/"
+domain_name: "http://cwicaksono.github.io/"
+google_analytics: "UA-75915557-1"
+disqus: false
+disqus_shortname: "your-disqus-shortname"
+
+# Details for the RSS feed generator
+url: "http://cwicaksono.github.io/"
+author: "Cahyo Wicaksono"
+authorTwitter: "cwicaksono"
+
+permalink: /:year/:title/
+
+defaults:
+    - scope:
+          path: "" # empty string for all files
+          type: pages
+      values:
+          layout: default
+    - scope:
+          path: "" # empty string for all files
+          type: posts
+      values:
+          layout: post
+    - scope:
+          path: ""
+          type: drafts
+      values:
+          layout: post
+gems: [jekyll-paginate]
+paginate_path: "page:num"
