@@ -10,7 +10,7 @@ highlighter: pygments
 paginate: 10
 baseurl: "https://cwicaksono.github.io/"
 domain_name: "https://cwicaksono.github.io/"
-google_analytics: "UA-75915557-1"
+google_analytics: "G-QPSDT14ZH5"
 disqus: false
 disqus_shortname: "your-disqus-shortname"
 
