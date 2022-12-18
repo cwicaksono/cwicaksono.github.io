@@ -16,8 +16,11 @@ Pesan Sekarang Juga
 Kami menyediakan beberapa fitur paling berkelas pada tiap paket jasa pembuatan website di Bekasi.
 
 - Website Mobile dan SEO-Friendly
+
 - Sertifikat SSL untuk Keamanan Website
+
 - Email Bisnis Profesional
+
 - Hosting dan Domain Gratis
 
 ## Apa yang Anda Dapatkan
