@@ -25,6 +25,8 @@
   ini hanya muncul di halaman index
   {% endif %}
 
+  {% if page.profile %}home{% endif %}
+
   <section id="wrapper" class="{% if page.profile %}home{% endif %}">
     {{ content }}
   </section>
