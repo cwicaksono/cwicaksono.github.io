@@ -13,23 +13,29 @@
   <link rel="stylesheet" href="{{ site.baseurl }}assets/css/highlight.css">
 </head>
 
-<body {% if page.id == 'index' %}style="background:#121212;"{% endif %}">
+<body {% if page.url == "/" %}style="background:#121212;"{% endif %}>
 
+  {% if page.url == "/" %}
+  <div style="background:#CBCDDE;margin-top: -100px;padding-top: 200px;padding-bottom: 100px;">
+    <div class="container paddingcontent">
+      <div class="row boxbio">
+        <div class="col-md-12 col-lg-9 pt-4">
+          <div class="titleabout" style="color:#072431">Cahyo Wicaksono <span style="color:#797986;">seorang</span>
+            Laravel Developer.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endif %}
   {% include navigation.html %}
 
   {% if page.profile %}
   {% include profile.html %}
   {% endif %}
 
-  {% if page.id == 'index' %}
-  ini hanya muncul di halaman index
-  {% endif %}
-
   {{page}}
 
-  {% if page.url == "/" %}
-  ini hanya muncul di halaman index ya
-  {% endif %}
+  
 
   <section id="wrapper" class="{% if page.profile %}home{% endif %}">
     {{ content }}
