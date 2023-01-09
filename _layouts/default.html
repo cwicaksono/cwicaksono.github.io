@@ -27,6 +27,10 @@
 
   {{page}}
 
+  {% if page.url == "/" %}
+  ini hanya muncul di halaman index ya
+  {% endif %}
+
   <section id="wrapper" class="{% if page.profile %}home{% endif %}">
     {{ content }}
   </section>
