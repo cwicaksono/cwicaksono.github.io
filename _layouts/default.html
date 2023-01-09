@@ -15,13 +15,14 @@
 
 <body {% if page.id == 'index' %}style="background:#121212;"{% endif %}">
 
-  {% if page.id == 'index' %}
-  ini hanya muncul di halaman index
-  {% endif %}
   {% include navigation.html %}
 
   {% if page.profile %}
   {% include profile.html %}
+  {% endif %}
+
+  {% if page.id == 'index' %}
+  ini hanya muncul di halaman index
   {% endif %}
 
   <section id="wrapper" class="{% if page.profile %}home{% endif %}">
