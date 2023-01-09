@@ -13,8 +13,11 @@
   <link rel="stylesheet" href="{{ site.baseurl }}assets/css/highlight.css">
 </head>
 
-<body>
+<body {% if page.id == 'index' %}style="background:#121212;"{% endif %}">
 
+  {% if page.id == 'index' %}
+  ini hanya muncul di halaman index
+  {% endif %}
   {% include navigation.html %}
 
   {% if page.profile %}
