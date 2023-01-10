@@ -17,17 +17,9 @@
 
   {% if page.url == "/" %}
   {% include hero.html %}
+  {% include about.html %}
   {% endif %}
-  {% include navigation.html %}
-
-  {% if page.profile %}
-  {% include profile.html %}
-  {% endif %}
-
-  {{page}}
-
   
-
   <section id="wrapper" class="{% if page.profile %}home{% endif %}">
     {{ content }}
   </section>
