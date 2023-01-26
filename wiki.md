@@ -1,5 +1,5 @@
 ---
-profile: true
+layout: wiki
 ---
 
 {% include wiki.html %}
