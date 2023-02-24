@@ -2,6 +2,8 @@
 title: Jasa Pembuatan Website di Bekasi
 permalink: jasa-pembuatan-website-di-bekasi
 profile: true
+layout: landingpage
+
 ---
 
 Jasa Pembuatan Website Profesional Terbaik
